@@ -1,24 +1,34 @@
-import logo from './logo.svg';
-import './App.css';
+import React from 'react';
+import {  createBrowserRouter, Link, RouterProvider } from 'react-router-dom';
+import Home from './Pages/Home';
+import SingleProperty from './components/DisplaySingleProperty/SingleProperty';
+import ListingsPage from './Pages/ListingsPage';
+import FilterContextProvider from './components/FilterContext';  
 
 function App() {
+  const router = createBrowserRouter([
+    {
+      path: '/',
+      element: <Home />
+    },
+    {
+      path: 'find/:id',
+      element: <SingleProperty />,
+    },
+    {
+      path: 'listings',
+      element: <ListingsPage />
+    },
+    {path: '*',
+    element: <h1>Coming Soon... <Link to='/'>Back to home</Link></h1>
+  }
+  ])
   return (
     <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
-    </div>
+      <FilterContextProvider>
+        <RouterProvider router={router} />
+      </FilterContextProvider>
+          </div>
   );
 }
 

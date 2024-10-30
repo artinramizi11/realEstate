@@ -1,0 +1,33 @@
+input {
+    padding: 20px;
+    border: 1px solid gray;
+}
+
+option {
+    padding: 10px;
+}
+
+select {
+    padding: 10px;
+}
+
+.searchForm {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    gap: 10px;
+}
+
+@media screen and (max-width: 600px) {
+    .searchForm {
+        grid-template-columns:  1fr 1fr;
+    }
+    
+}
+
+@media screen and (max-width: 450px) {
+    .searchForm {
+        grid-template-columns: 1fr;
+    }
+}
+
+

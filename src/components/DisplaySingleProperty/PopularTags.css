@@ -1,0 +1,23 @@
+.tags p {
+    background-color: white;
+    border: 0.2px solid gray;
+    padding: 10px;
+    border-radius: 10px;
+}
+
+.tags {
+    gap: 10px;
+    border-radius: 10px;
+    justify-content: start;
+}
+
+.tags p:hover {
+    background-color: rgb(219, 230, 246);
+    cursor: pointer;
+}
+
+.popularTags {
+    background-color: white;
+    padding: 10px;
+    border-radius: 10px;
+}

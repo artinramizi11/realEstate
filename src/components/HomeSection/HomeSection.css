@@ -1,0 +1,11 @@
+
+.searchForm {
+    display: flex;
+}
+
+@media screen and (max-width: 450px) {
+    .searchForm {
+        display: grid;
+    }
+}
+

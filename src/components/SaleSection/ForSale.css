@@ -1,0 +1,46 @@
+.redbox {
+    width: 20px;
+    height: 100px;
+    background-color: rgb(119, 10, 10);
+}
+
+.titleContainer {
+    display: flex;
+    gap: 10px;
+}
+
+.forSaleItemsContainer {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    gap: 20px;
+}
+
+.forSaleSection {
+    padding: 80px;
+}
+
+
+.viewAllBtn {
+    background-color: red;
+    color: white;
+    padding: 20px;
+    border-radius: 10px;
+    outline: none;
+    border: none;
+    text-align: center;
+}
+
+.btn {
+    display: flex;
+    justify-content: center;
+    margin-top: 30px;
+}
+
+@media screen and (max-width: 450px) {
+    .forSaleItemsContainer {
+        grid-template-columns: 1fr;
+    }
+    .forSaleSection {
+        padding: 10px;
+    }
+}

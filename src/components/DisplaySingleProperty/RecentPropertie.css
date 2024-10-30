@@ -1,0 +1,8 @@
+.product:hover {
+    background-color: rgb(219, 230, 246);
+    cursor: pointer;
+}
+
+.product {
+    padding: 10px;
+}
