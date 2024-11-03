@@ -1,0 +1,21 @@
+{
+  "files": {
+    "main.css": "/realEstate/static/css/main.3385e892.css",
+    "main.js": "/realEstate/static/js/main.7545e22e.js",
+    "static/media/bg.avif": "/realEstate/static/media/bg.98d9c5be9db1f9918eac.avif",
+    "static/media/banner.jpg": "/realEstate/static/media/banner.5b137c2bc222aed104fe.jpg",
+    "static/media/wallpaper.jpg": "/realEstate/static/media/wallpaper.76b83639711ec1bc17e8.jpg",
+    "static/media/5.jpg": "/realEstate/static/media/5.fea407762f0d3170cb1f.jpg",
+    "static/media/4.jpg": "/realEstate/static/media/4.eb097f1bc1989df5f1ac.jpg",
+    "static/media/3.jpg": "/realEstate/static/media/3.d786583b19d2ab5250d7.jpg",
+    "static/media/1.jpg": "/realEstate/static/media/1.4926a51e5ae0b46fc035.jpg",
+    "static/media/2.jpg": "/realEstate/static/media/2.b510fb12cc711164c0b6.jpg",
+    "index.html": "/realEstate/index.html",
+    "main.3385e892.css.map": "/realEstate/static/css/main.3385e892.css.map",
+    "main.7545e22e.js.map": "/realEstate/static/js/main.7545e22e.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.3385e892.css",
+    "static/js/main.7545e22e.js"
+  ]
+}
