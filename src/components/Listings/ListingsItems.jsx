@@ -1,9 +1,9 @@
-import React from 'react'
+import React, { useContext } from 'react'
 import Item from '../Item/Item'
 import './ListingsItems.css'
 
 const ListingsItems = ({filteredData}) => {
-   
+
   return (
     <div className='itemsContainer'>
         {filteredData.map((it) => {

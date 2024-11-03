@@ -8,7 +8,6 @@ const Listings = () => {
 
   const { keyword,setKeyword , propertyType,  setPropertyType , location , setLocation , filteredData, resetFilterBtn } = useContext(FilterContext)
 
-
   return (
     <div style={{padding: '30px'}}>
       <div className="title">

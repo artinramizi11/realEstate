@@ -6,6 +6,12 @@
    
 }
 
+.box {
+    background-color: rgb(119,10,10);
+    width: 20px;
+    height: 100px;
+}
+
 .card span {
     font-size: 5rem;
     color: rgb(119, 10, 10);
@@ -27,13 +33,10 @@
     display: grid;
     grid-template-columns: 1fr 1fr 1fr;
     gap: 10px;
-    padding: 10px;
-
 }
 
 @media screen and (max-width: 450px) {
     .container {
-        display: grid;
         grid-template-columns: 1fr;
     }
 }
